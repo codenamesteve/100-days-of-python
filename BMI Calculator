@@ -1,0 +1,8 @@
+import math
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+calc = (float(weight) / (float(height) * 2))
+bmi = math.floor(calc)
+print ("Your BMI is: " + str(bmi))
